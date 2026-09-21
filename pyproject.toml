@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiered-kv-cache-lab"
+version = "0.1.0"
+description = "A deterministic GPU-to-CPU-to-NVMe cache simulator for long-context LLM serving, with promotion, demotion, prefix reuse, latency accounting, and capacity analysis."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Asher"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tiered_kv_cache_lab*"]
