@@ -1,0 +1,122 @@
+[
+  {
+    "hbm_gib": 4,
+    "label": "hbm",
+    "policy": "lru",
+    "reuse_fraction": 0.37890342494059304,
+    "reuse_by_tier": {
+      "hbm": 0.37890342494059304
+    },
+    "utilization": 0.8766148656451913,
+    "ttft_p50_s": 59.549855503343,
+    "ttft_p95_s": 195.09773752770525,
+    "ttft_p99_s": 202.75788889577507,
+    "prefill_tokens_computed": 12311744,
+    "orphaned_blocks": 163
+  },
+  {
+    "hbm_gib": 4,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.39233214304163655,
+    "reuse_by_tier": {
+      "hbm": 0.39233214304163655
+    },
+    "utilization": 0.8714754945208153,
+    "ttft_p50_s": 50.903493115945025,
+    "ttft_p95_s": 173.61065830988696,
+    "ttft_p99_s": 180.85708889577336,
+    "prefill_tokens_computed": 12045552,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 8,
+    "label": "hbm",
+    "policy": "lru",
+    "reuse_fraction": 0.45747720580638496,
+    "reuse_by_tier": {
+      "hbm": 0.45747720580638496
+    },
+    "utilization": 0.8328431918160852,
+    "ttft_p50_s": 27.008466608390677,
+    "ttft_p95_s": 88.38104096683765,
+    "ttft_p99_s": 91.04913583940356,
+    "prefill_tokens_computed": 10754208,
+    "orphaned_blocks": 21
+  },
+  {
+    "hbm_gib": 8,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.46340418044219445,
+    "reuse_by_tier": {
+      "hbm": 0.46340418044219445
+    },
+    "utilization": 0.8284893543366573,
+    "ttft_p50_s": 25.809623358429008,
+    "ttft_p95_s": 82.02810583269707,
+    "ttft_p99_s": 83.89230833446982,
+    "prefill_tokens_computed": 10636720,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 16,
+    "label": "hbm",
+    "policy": "lru",
+    "reuse_fraction": 0.5492286780659159,
+    "reuse_by_tier": {
+      "hbm": 0.5492286780659159
+    },
+    "utilization": 0.7443062325094731,
+    "ttft_p50_s": 1.562205495586113,
+    "ttft_p95_s": 6.381925010577902,
+    "ttft_p99_s": 8.460827117777058,
+    "prefill_tokens_computed": 8935456,
+    "orphaned_blocks": 195
+  },
+  {
+    "hbm_gib": 16,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.5516097995660709,
+    "reuse_by_tier": {
+      "hbm": 0.5516097995660709
+    },
+    "utilization": 0.7403745636417122,
+    "ttft_p50_s": 1.436337667046928,
+    "ttft_p95_s": 6.18352501057791,
+    "ttft_p99_s": 8.168000602305256,
+    "prefill_tokens_computed": 8888256,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 32,
+    "label": "hbm",
+    "policy": "lru",
+    "reuse_fraction": 0.6834577435685505,
+    "reuse_by_tier": {
+      "hbm": 0.6834577435685505
+    },
+    "utilization": 0.5227303281081621,
+    "ttft_p50_s": 0.27359999999998763,
+    "ttft_p95_s": 1.5375641145253667,
+    "ttft_p99_s": 2.318080297815868,
+    "prefill_tokens_computed": 6274688,
+    "orphaned_blocks": 334
+  },
+  {
+    "hbm_gib": 32,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.6844715363157351,
+    "reuse_by_tier": {
+      "hbm": 0.6844715363157351
+    },
+    "utilization": 0.5210561749592468,
+    "ttft_p50_s": 0.2675727218479551,
+    "ttft_p95_s": 1.5235431614872823,
+    "ttft_p99_s": 2.2831823547536487,
+    "prefill_tokens_computed": 6254592,
+    "orphaned_blocks": 0
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "model": "llama-3-8b",
+    "kv_kib_per_token": 128,
+    "label": "HBM 16 GiB",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.5516097995660709,
+    "reuse_by_tier": {
+      "hbm": 0.5516097995660709
+    },
+    "utilization": 0.7403745636417122,
+    "ttft_p50_s": 1.436337667046928,
+    "ttft_p95_s": 6.18352501057791,
+    "ttft_p99_s": 8.168000602305256,
+    "prefill_tokens_computed": 8888256,
+    "orphaned_blocks": 0
+  },
+  {
+    "model": "llama-3-8b",
+    "kv_kib_per_token": 128,
+    "label": "HBM + DRAM 128 GiB",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.9371424281950614,
+    "reuse_by_tier": {
+      "hbm": 0.5516097995660709,
+      "dram": 0.3855326286289906
+    },
+    "utilization": 0.13727767578824948,
+    "ttft_p50_s": 0.03999999999996362,
+    "ttft_p95_s": 0.08274500159996023,
+    "ttft_p99_s": 0.13882130085482913,
+    "prefill_tokens_computed": 1246000,
+    "orphaned_blocks": 0
+  },
+  {
+    "model": "llama-3-70b",
+    "kv_kib_per_token": 320,
+    "label": "HBM 16 GiB",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.4407496254778386,
+    "reuse_by_tier": {
+      "hbm": 0.44074962547783864
+    },
+    "utilization": 0.8448441618548901,
+    "ttft_p50_s": 31.56691459423041,
+    "ttft_p95_s": 108.08291261126396,
+    "ttft_p99_s": 111.56273583940379,
+    "prefill_tokens_computed": 11085792,
+    "orphaned_blocks": 0
+  },
+  {
+    "model": "llama-3-70b",
+    "kv_kib_per_token": 320,
+    "label": "HBM + DRAM 128 GiB",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.8222698625891105,
+    "reuse_by_tier": {
+      "hbm": 0.44074962547783864,
+      "dram": 0.3815202371112718
+    },
+    "utilization": 0.37628591978430836,
+    "ttft_p50_s": 0.0928000000000111,
+    "ttft_p95_s": 0.7314242481754718,
+    "ttft_p99_s": 1.070895117048508,
+    "prefill_tokens_computed": 3523072,
+    "orphaned_blocks": 0
+  },
+  {
+    "model": "qwen2.5-7b",
+    "kv_kib_per_token": 56,
+    "label": "HBM 16 GiB",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.7132233766401488,
+    "reuse_by_tier": {
+      "hbm": 0.7132233766401488
+    },
+    "utilization": 0.47357607199944185,
+    "ttft_p50_s": 0.20320000000003802,
+    "ttft_p95_s": 1.3311161248483359,
+    "ttft_p99_s": 2.102643217968307,
+    "prefill_tokens_computed": 5684656,
+    "orphaned_blocks": 0
+  },
+  {
+    "model": "qwen2.5-7b",
+    "kv_kib_per_token": 56,
+    "label": "HBM + DRAM 128 GiB",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.9377639412645935,
+    "reuse_by_tier": {
+      "hbm": 0.7132233766401488,
+      "dram": 0.22454056462444466
+    },
+    "utilization": 0.11135624563828246,
+    "ttft_p50_s": 0.03200000000003911,
+    "ttft_p95_s": 0.06207324735999009,
+    "ttft_p99_s": 0.10083366948276762,
+    "prefill_tokens_computed": 1233680,
+    "orphaned_blocks": 0
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "hbm_gib": 2,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.31250161431966117,
+    "reuse_by_tier": {
+      "hbm": 0.3125016143196611
+    },
+    "utilization": 0.9088471687252878,
+    "ttft_p50_s": 93.20032783911472,
+    "ttft_p95_s": 281.98733752770477,
+    "ttft_p99_s": 295.27950442372367,
+    "prefill_tokens_computed": 13628000,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 4,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.39233214304163655,
+    "reuse_by_tier": {
+      "hbm": 0.39233214304163655
+    },
+    "utilization": 0.8714754945208153,
+    "ttft_p50_s": 50.903493115945025,
+    "ttft_p95_s": 173.61065830988696,
+    "ttft_p99_s": 180.85708889577336,
+    "prefill_tokens_computed": 12045552,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 8,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.46340418044219445,
+    "reuse_by_tier": {
+      "hbm": 0.46340418044219445
+    },
+    "utilization": 0.8284893543366573,
+    "ttft_p50_s": 25.809623358429008,
+    "ttft_p95_s": 82.02810583269707,
+    "ttft_p99_s": 83.89230833446982,
+    "prefill_tokens_computed": 10636720,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 16,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.5516097995660709,
+    "reuse_by_tier": {
+      "hbm": 0.5516097995660709
+    },
+    "utilization": 0.7403745636417122,
+    "ttft_p50_s": 1.436337667046928,
+    "ttft_p95_s": 6.18352501057791,
+    "ttft_p99_s": 8.168000602305256,
+    "prefill_tokens_computed": 8888256,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 32,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.6844715363157351,
+    "reuse_by_tier": {
+      "hbm": 0.6844715363157351
+    },
+    "utilization": 0.5210561749592468,
+    "ttft_p50_s": 0.2675727218479551,
+    "ttft_p95_s": 1.5235431614872823,
+    "ttft_p99_s": 2.2831823547536487,
+    "prefill_tokens_computed": 6254592,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 64,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.8478624793367083,
+    "reuse_by_tier": {
+      "hbm": 0.8478624793367083
+    },
+    "utilization": 0.2513776693819999,
+    "ttft_p50_s": 0.04149243365725397,
+    "ttft_p95_s": 0.5192317018806989,
+    "ttft_p99_s": 0.8276395518009849,
+    "prefill_tokens_computed": 3015760,
+    "orphaned_blocks": 0
+  },
+  {
+    "hbm_gib": 128,
+    "label": "hbm",
+    "policy": "leaf-first",
+    "reuse_fraction": 0.935799314237008,
+    "reuse_by_tier": {
+      "hbm": 0.9357993142370079
+    },
+    "utilization": 0.10607914924251242,
+    "ttft_p50_s": 0.030399999999985994,
+    "ttft_p95_s": 0.059172445866352064,
+    "ttft_p99_s": 0.17803457252750832,
+    "prefill_tokens_computed": 1272624,
+    "orphaned_blocks": 0
+  }
+]

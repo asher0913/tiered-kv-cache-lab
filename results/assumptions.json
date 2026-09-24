@@ -1,0 +1,45 @@
+{
+  "model": "llama-3-8b unless stated (32 layers, 8 KV heads, head_dim 128, bf16 \u2192 128 KiB/token)",
+  "block_tokens": 16,
+  "prefill_tokens_per_s": 10000.0,
+  "tiers": {
+    "hbm": {
+      "capacity_gib": 16,
+      "load_cost": "none (already resident)"
+    },
+    "dram": {
+      "capacity_gib": 128,
+      "gb_per_s": 25,
+      "latency_us": 10
+    },
+    "nvme": {
+      "capacity_tib": 1,
+      "gb_per_s": 6,
+      "latency_us": 100
+    }
+  },
+  "workload": {
+    "sessions_per_s": 0,
+    "duration_s": 1200.0,
+    "system_prompts": 24,
+    "zipf_s": 1.1,
+    "system_tokens": [
+      512,
+      4096
+    ],
+    "mean_turns": 4.0,
+    "max_turns": 12,
+    "user_tokens": [
+      32,
+      512
+    ],
+    "output_tokens": [
+      64,
+      768
+    ],
+    "think_time_mean_s": 45.0,
+    "decode_s_per_token": 0.02,
+    "block_tokens": 16,
+    "seed": 0
+  }
+}

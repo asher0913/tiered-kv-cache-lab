@@ -1,0 +1,200 @@
+{
+  "0.5": {
+    "workload": {
+      "requests": 2136,
+      "sessions": 600,
+      "mean_prompt_tokens": 4648,
+      "total_prompt_tokens": 9927984
+    },
+    "results": [
+      {
+        "label": "no cache",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.0,
+        "reuse_by_tier": {},
+        "utilization": 0.8266693239334496,
+        "ttft_p50_s": 2.169123997806082,
+        "ttft_p95_s": 14.505001294175486,
+        "ttft_p99_s": 16.879338550736406,
+        "prefill_tokens_computed": 9927984
+      },
+      {
+        "label": "HBM 16 GiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.6372193992254621,
+        "reuse_by_tier": {
+          "hbm": 0.6372193992254621
+        },
+        "utilization": 0.3003067936532551,
+        "ttft_p50_s": 0.1704019866182307,
+        "ttft_p95_s": 0.9015482944399764,
+        "ttft_p99_s": 1.369505786196214,
+        "prefill_tokens_computed": 3601680,
+        "orphaned_blocks": 0
+      },
+      {
+        "label": "HBM + DRAM 128 GiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.9342239068878435,
+        "reuse_by_tier": {
+          "hbm": 0.6372193992254621,
+          "dram": 0.2970045076623814
+        },
+        "utilization": 0.06734793041273147,
+        "ttft_p50_s": 0.03679999999997108,
+        "ttft_p95_s": 0.07623645760008912,
+        "ttft_p99_s": 0.16525217400808856,
+        "prefill_tokens_computed": 653024,
+        "orphaned_blocks": 0
+      },
+      {
+        "label": "HBM + DRAM + NVMe 1 TiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.9342239068878435,
+        "reuse_by_tier": {
+          "hbm": 0.6372193992254621,
+          "dram": 0.2970045076623814,
+          "nvme": 0.0
+        },
+        "utilization": 0.06734793041273147,
+        "ttft_p50_s": 0.03679999999997108,
+        "ttft_p95_s": 0.07623645760008912,
+        "ttft_p99_s": 0.16525217400808856,
+        "prefill_tokens_computed": 653024,
+        "orphaned_blocks": 0
+      }
+    ]
+  },
+  "1.0": {
+    "workload": {
+      "requests": 4253,
+      "sessions": 1189,
+      "mean_prompt_tokens": 4661,
+      "total_prompt_tokens": 19822592
+    },
+    "results": [
+      {
+        "label": "no cache",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.0,
+        "reuse_by_tier": {},
+        "utilization": 0.9749738005811237,
+        "ttft_p50_s": 329.2598081185016,
+        "ttft_p95_s": 786.7032174913334,
+        "ttft_p99_s": 823.0567657334886,
+        "prefill_tokens_computed": 19822592
+      },
+      {
+        "label": "HBM 16 GiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.5516097995660709,
+        "reuse_by_tier": {
+          "hbm": 0.5516097995660709
+        },
+        "utilization": 0.7403745636417122,
+        "ttft_p50_s": 1.436337667046928,
+        "ttft_p95_s": 6.18352501057791,
+        "ttft_p99_s": 8.168000602305256,
+        "prefill_tokens_computed": 8888256,
+        "orphaned_blocks": 0
+      },
+      {
+        "label": "HBM + DRAM 128 GiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.9371424281950614,
+        "reuse_by_tier": {
+          "hbm": 0.5516097995660709,
+          "dram": 0.3855326286289906
+        },
+        "utilization": 0.13727767578824948,
+        "ttft_p50_s": 0.03999999999996362,
+        "ttft_p95_s": 0.08274500159996023,
+        "ttft_p99_s": 0.13882130085482913,
+        "prefill_tokens_computed": 1246000,
+        "orphaned_blocks": 0
+      },
+      {
+        "label": "HBM + DRAM + NVMe 1 TiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.9377639412645935,
+        "reuse_by_tier": {
+          "hbm": 0.5516097995660709,
+          "dram": 0.3855326286289906,
+          "nvme": 0.0006215130695319764
+        },
+        "utilization": 0.13647560626810262,
+        "ttft_p50_s": 0.03999999999996362,
+        "ttft_p95_s": 0.08174453312000196,
+        "ttft_p99_s": 0.1332975824428786,
+        "prefill_tokens_computed": 1233680,
+        "orphaned_blocks": 0
+      }
+    ]
+  },
+  "2.0": {
+    "workload": {
+      "requests": 8476,
+      "sessions": 2416,
+      "mean_prompt_tokens": 4697,
+      "total_prompt_tokens": 39813920
+    },
+    "results": [
+      {
+        "label": "no cache",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.0,
+        "reuse_by_tier": {},
+        "utilization": 0.9984071648329331,
+        "ttft_p50_s": 1208.6259614387743,
+        "ttft_p95_s": 2627.7465901381356,
+        "ttft_p99_s": 2755.9403875285743,
+        "prefill_tokens_computed": 39813920
+      },
+      {
+        "label": "HBM 16 GiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.5300071934639945,
+        "reuse_by_tier": {
+          "hbm": 0.5300071934639945
+        },
+        "utilization": 0.9402217724916098,
+        "ttft_p50_s": 263.8829314396322,
+        "ttft_p95_s": 738.8595601389964,
+        "ttft_p99_s": 780.0422624230328,
+        "prefill_tokens_computed": 18712256,
+        "orphaned_blocks": 0
+      },
+      {
+        "label": "HBM + DRAM 128 GiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.8896116735051459,
+        "reuse_by_tier": {
+          "hbm": 0.5300071934639945,
+          "dram": 0.3596044800411514
+        },
+        "utilization": 0.428869638028852,
+        "ttft_p50_s": 0.055445038719994955,
+        "ttft_p95_s": 0.6977284563199646,
+        "ttft_p99_s": 1.3465037471346477,
+        "prefill_tokens_computed": 4394992,
+        "orphaned_blocks": 0
+      },
+      {
+        "label": "HBM + DRAM + NVMe 1 TiB",
+        "policy": "leaf-first",
+        "reuse_fraction": 0.9393699490027608,
+        "reuse_by_tier": {
+          "hbm": 0.5300071934639945,
+          "dram": 0.3596044800411514,
+          "nvme": 0.049758275497614905
+        },
+        "utilization": 0.2999253862152866,
+        "ttft_p50_s": 0.04640000000000555,
+        "ttft_p95_s": 0.13288702933334662,
+        "ttft_p99_s": 0.2231271140615263,
+        "prefill_tokens_computed": 2413920,
+        "orphaned_blocks": 0
+      }
+    ]
+  }
+}
